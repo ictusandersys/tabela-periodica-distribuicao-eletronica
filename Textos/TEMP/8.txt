@@ -1,0 +1,5 @@
+O
+Número atômico: 8
+Peso atômico (massa atômica relativa): De 15,99903 a 15,99977 OBS: A IUPAC alterou em 2011 a massa para o intervalo de valores. Se você precisa de um valor único, indico que utilize 15,999.
+Ponto de fusão: 50,35 K (-222,8 °C)
+Ponto de ebulição: 90,18 K (-182,97 °C)

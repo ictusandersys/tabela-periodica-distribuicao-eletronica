@@ -1,0 +1,5 @@
+P
+Número atômico: 15
+Peso atômico (massa atômica relativa): 30,973761998(5)
+Ponto de fusão (fósfoto branco): 317,3 K (44,15 °C)
+Ponto de ebulição: 553,6 K (280,5 °C)

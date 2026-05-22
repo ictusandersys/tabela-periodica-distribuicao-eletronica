@@ -1,0 +1,5 @@
+F
+Número atômico: 9
+Peso atômico (massa atômica relativa): 18,998403163(6)
+Ponto de fusão: 53,53 K (-219,62 °C)
+Ponto de ebulição: 85,03 K (-188,12 °C)

@@ -1,0 +1,5 @@
+Mg
+Número atômico: 12
+Peso atômico (massa atômica relativa): De 24,304 a 24,307 OBS: A IUPAC indica intervalos de massas atômicas para alguns elementos. Se você precisa de um valor único, indico que utilize 24,305.
+Ponto de fusão: 923 K (650 °C)
+Ponto de ebulição: 1363 K (1090 °C)

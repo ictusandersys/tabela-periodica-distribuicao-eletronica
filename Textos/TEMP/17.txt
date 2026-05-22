@@ -1,0 +1,5 @@
+Cl
+Número atômico: 17
+Peso atômico (massa atômica relativa): De 35,446 a 35,457 OBS: A IUPAC alterou em 2011 a massa para o intervalo de valores. Se você precisa de um valor único, indico que utilize 35,45.
+Ponto de fusão: 171,6 K (-101,5 °C)
+Ponto de ebulição: 239,11 K (-34,04 °C)

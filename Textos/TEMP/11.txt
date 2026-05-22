@@ -1,0 +1,5 @@
+Na
+Número atômico: 11
+Peso atômico (massa atômica relativa): 22,98976928(2)
+Ponto de fusão: 370,95 K (97,80 °C)
+Ponto de ebulição: 1156 K (883 °C)

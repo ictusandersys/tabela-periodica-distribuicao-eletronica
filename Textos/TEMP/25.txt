@@ -1,0 +1,5 @@
+Mn
+Número atômico: 25
+Peso atômico (massa atômica relativa): 54,938043(2)
+Ponto de fusão: 1519 K (1246 °C)
+Ponto de ebulição: 2334 K (2061 °C)

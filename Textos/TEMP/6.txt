@@ -1,0 +1,5 @@
+C
+Número atômico: 6
+Peso atômico (massa atômica relativa): De 12,0096 a 12,0116. OBS: Se você precisa de um valor único, indico que utilize 12,011.
+Ponto de fusão: –
+Ponto de ebulição: 4300 K (4027 °C) [valores para o diamante]

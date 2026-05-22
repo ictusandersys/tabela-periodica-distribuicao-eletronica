@@ -1,0 +1,5 @@
+Ti
+Número atômico: 22
+Peso atômico (massa atômica relativa): 47,867(1)
+Ponto de fusão: 1941 K (1668 °C)
+Ponto de ebulição: 3560 K (3287 °C)

@@ -1,0 +1,5 @@
+K
+Número atômico: 19
+Peso atômico (massa atômica relativa): 39,0983(1)
+Ponto de fusão: 336,53 K (63,38 °C)
+Ponto de ebulição: 1032 K (759 °C)

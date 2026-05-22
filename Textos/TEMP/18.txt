@@ -1,0 +1,5 @@
+Ar
+Número atômico: 18
+Peso atômico (massa atômica relativa): [39,792 a 39,963] OBS: A IUPAC alterou o valor para o intervalo.
+Ponto de fusão: 83,80 K (-189,35 °C)
+Ponto de ebulição: 87,30 K (-185,85 °C)

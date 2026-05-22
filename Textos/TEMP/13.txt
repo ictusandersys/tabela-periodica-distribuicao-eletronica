@@ -1,0 +1,5 @@
+Al
+Número atômico: 13
+Peso atômico (massa atômica relativa): 26,9815384(3)
+Ponto de fusão: 933,473 K (660,323 °C)
+Ponto de ebulição: 2792 K (2519 °C)

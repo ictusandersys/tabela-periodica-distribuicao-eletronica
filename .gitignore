@@ -1,0 +1,17 @@
+*.exe
+*.o
+*.ppu
+*.compiled
+*.bak
+*.tmp
+*.or
+*.dbg
+*.lps
+*.zip
+
+lib/
+backup/
+__history/
+
+*-BOOK2-*
+UDE_corrigido.pas

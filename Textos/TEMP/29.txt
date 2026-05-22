@@ -1,0 +1,5 @@
+Cu
+Número atômico: 29
+Peso atômico (massa atômica relativa): 63,546(3)
+Ponto de fusão: 1357,77 K (1084,62 °C)
+Ponto de ebulição: 2835 K (2562 °C)

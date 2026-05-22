@@ -1,0 +1,5 @@
+B
+Número atômico: 5
+Peso atômico (massa atômica relativa): De 10,806 a 10,821 OBS: A IUPAC alterou em 2011 a massa para o intervalo de valores. Se você precisa de um valor único indico que utilize 10,81.
+Ponto de fusão: 2348 K (2075 °C)
+Ponto de ebulição: 4273 K (4000 °C)
