@@ -13,10 +13,12 @@ Aplicativo educacional desenvolvido em Lazarus/Free Pascal para auxiliar no estu
 - Lazarus
 - Free Pascal
 
+## Download
+A versão instalável para Windows está disponível em:
+https://github.com/ictusandersys/tabela-periodica-distribuicao-eletronica/releases/tag/v1.0.0
+
 ## Autor
 Desenvolvido por Gilberto Anders.
 Contato: ictus.andersys@gmail.com
 
-## Download
-A versão instalável para Windows está disponível em:
-https://github.com/ictusandersys/tabela-periodica-distribuicao-eletronica/releases/tag/v1.0.0
+
