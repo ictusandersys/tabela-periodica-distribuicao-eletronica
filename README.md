@@ -19,4 +19,4 @@ Contato: ictus.andersys@gmail.com
 
 ## Download
 A versão instalável para Windows está disponível em:
-[Releases → v1.0.0 → Instalador_TP.exe](https://github.com/ictusandersys/tabela-periodica-distribuicao-eletronica/releases/download/v1.0.0/Instalador_TP.exe)
+https://github.com/ictusandersys/tabela-periodica-distribuicao-eletronica/releases/tag/v1.0.0
