@@ -6,7 +6,7 @@ interface
 
 uses
   LCLIntf, LCLType, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  StdCtrls, Menus, ExtCtrls, Buttons;
+  StdCtrls, Menus, ExtCtrls, Buttons, Math;
 
 type
 
@@ -194,7 +194,10 @@ type
     E7: TEdit;
     E8: TEdit;
     E9: TEdit;
+    EZ: TEdit;
     Image1: TImage;
+    Label1: TLabel;
+    Label10: TLabel;
     Label100: TLabel;
     Label101: TLabel;
     Label102: TLabel;
@@ -205,6 +208,7 @@ type
     Label107: TLabel;
     Label108: TLabel;
     Label109: TLabel;
+    Label11: TLabel;
     Label110: TLabel;
     Label111: TLabel;
     Label112: TLabel;
@@ -215,6 +219,7 @@ type
     Label117: TLabel;
     Label118: TLabel;
     Label119: TLabel;
+    Label12: TLabel;
     Label120: TLabel;
     Label121: TLabel;
     Label122: TLabel;
@@ -225,30 +230,13 @@ type
     Label127: TLabel;
     Label128: TLabel;
     Label129: TLabel;
+    Label13: TLabel;
     Label130: TLabel;
     Label131: TLabel;
     Label132: TLabel;
     Label133: TLabel;
     Label134: TLabel;
-    Label60: TLabel;
-    Label90: TLabel;
-    Label91: TLabel;
-    Label92: TLabel;
-    Label93: TLabel;
-    Label94: TLabel;
-    Label95: TLabel;
-    Label96: TLabel;
-    Label97: TLabel;
-    Label98: TLabel;
-    Label99: TLabel;
-    MemoInfo: TMemo;
-    N39: TEdit;
-    EZ: TEdit;
-    Label1: TLabel;
-    Label10: TLabel;
-    Label11: TLabel;
-    Label12: TLabel;
-    Label13: TLabel;
+    Label135: TLabel;
     Label14: TLabel;
     Label15: TLabel;
     Label16: TLabel;
@@ -281,6 +269,7 @@ type
     Label5: TLabel;
     Label59: TLabel;
     Label6: TLabel;
+    Label60: TLabel;
     Label61: TLabel;
     Label62: TLabel;
     Label63: TLabel;
@@ -313,6 +302,17 @@ type
     Label88: TLabel;
     Label89: TLabel;
     Label9: TLabel;
+    Label90: TLabel;
+    Label91: TLabel;
+    Label92: TLabel;
+    Label93: TLabel;
+    Label94: TLabel;
+    Label95: TLabel;
+    Label96: TLabel;
+    Label97: TLabel;
+    Label98: TLabel;
+    Label99: TLabel;
+    MemoInfo: TMemo;
     N1: TEdit;
     N10: TEdit;
     N11: TEdit;
@@ -345,6 +345,7 @@ type
     N36: TEdit;
     N37: TEdit;
     N38: TEdit;
+    N39: TEdit;
     N4: TEdit;
     N40: TEdit;
     N41: TEdit;
@@ -373,6 +374,8 @@ type
     NumEdit1: TEdit;
     Panel1: TPanel;
     Proton: TLabel;
+    ScrollBoxCamadas: TScrollBox;
+    ScrollBoxPrincipal: TScrollBox;
     SpeedButton14: TSpeedButton;
     SpeedButton15: TSpeedButton;
     SpeedButton16: TSpeedButton;
@@ -502,6 +505,7 @@ type
     procedure BotaoElementoClick(Sender: TObject);
     procedure EZExit(Sender: TObject);
     procedure EZKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure SairClick(Sender: TObject);
     procedure SobreClick(Sender: TObject);
@@ -646,10 +650,36 @@ begin
 
   CaminhoImagem := ExtractFilePath(Application.ExeName) + 'Imagens\' + ArquivoImagem;
 
-  if FileExists(CaminhoImagem) then
-    Image1.Picture.LoadFromFile(CaminhoImagem)
+if FileExists(CaminhoImagem) then
+begin
+  Image1.Parent := ScrollBoxCamadas;
+
+  Image1.Align := alNone;
+  Image1.AutoSize := True;
+  Image1.Stretch := False;
+  Image1.Proportional := False;
+  Image1.Center := False;
+  Image1.Visible := True;
+
+  Image1.Picture.LoadFromFile(CaminhoImagem);
+
+  if Image1.Width < ScrollBoxCamadas.ClientWidth then
+    Image1.Left := (ScrollBoxCamadas.ClientWidth - Image1.Width) div 2
   else
-    ShowMessage('Imagem não encontrada: ' + CaminhoImagem);
+    Image1.Left := 0;
+
+  if Image1.Height < ScrollBoxCamadas.ClientHeight then
+    Image1.Top := (ScrollBoxCamadas.ClientHeight - Image1.Height) div 2
+  else
+    Image1.Top := 0;
+
+  ScrollBoxCamadas.HorzScrollBar.Position := 0;
+  ScrollBoxCamadas.VertScrollBar.Position := 0;
+
+  Image1.BringToFront;
+end
+else
+  ShowMessage('Imagem não encontrada: ' + CaminhoImagem);
 
   CarregarInformacoesElemento(NumeroAtomico);
 end;
@@ -2231,6 +2261,31 @@ begin
     Bitbtn1.Click;
     Key := 0;
   end;
+end;
+
+procedure TfDE.FormCreate(Sender: TObject);
+begin
+  Position := poScreenCenter;
+  WindowState := wsMaximized;
+
+  Constraints.MinWidth := 1000;
+  Constraints.MinHeight := 700;
+
+  MemoInfo.ScrollBars := ssVertical;
+  MemoInfo.WordWrap := True;
+  MemoInfo.ReadOnly := True;
+
+  ScrollBoxCamadas.AutoScroll := True;
+  ScrollBoxCamadas.HorzScrollBar.Visible := True;
+  ScrollBoxCamadas.VertScrollBar.Visible := True;
+
+  Image1.Parent := ScrollBoxCamadas;
+  Image1.Align := alNone;
+  Image1.AutoSize := True;
+  Image1.Stretch := False;
+  Image1.Proportional := False;
+  Image1.Center := False;
+  Image1.Visible := True;
 end;
 
 procedure TfDE.SairClick(Sender: TObject);

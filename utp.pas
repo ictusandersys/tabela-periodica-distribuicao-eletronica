@@ -57,7 +57,7 @@ end;
 
 procedure TfTP.FormCreate(Sender: TObject);
 begin
-  Caption := 'Sobre o programa';
+  Caption := 'SOBRE O PROGRAMA';
 
   LabelTitulo.Caption := 'TABELA PERIÓDICA E DISTRIBUIÇÃO ELETRÔNICA';
   LabelVersao.Caption := 'Versão 1.0';

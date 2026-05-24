@@ -7,7 +7,7 @@ object fTP: TfTP
   Caption = 'SOBRE O PROGRAMA'
   ClientHeight = 510
   ClientWidth = 653
-  Color = clNavy
+  Color = clPurple
   DesignTimePPI = 144
   Position = poScreenCenter
   LCLVersion = '4.6.0.0'
