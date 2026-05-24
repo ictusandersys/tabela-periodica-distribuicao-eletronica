@@ -1,5 +1,5 @@
 #define MyAppName "Tabela Periódica e Distribuição Eletrônica"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "Gilberto Anders"
 #define MyAppExeName "TP.exe"
 
@@ -12,7 +12,7 @@ DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 OutputDir=Instalador
-OutputBaseFilename=Instalador_TP
+OutputBaseFilename=Instalador_TP_v1.0.1
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
