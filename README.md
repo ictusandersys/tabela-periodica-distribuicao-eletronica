@@ -14,8 +14,9 @@ Aplicativo educacional desenvolvido em Lazarus/Free Pascal para auxiliar no estu
 - Free Pascal
 
 ## Download
-A versão instalável para Windows está disponível em:
-https://github.com/ictusandersys/tabela-periodica-distribuicao-eletronica/releases/tag/v1.0.0
+A versão instalável para Windows está disponível no link abaixo:
+
+[Baixar versão v1.0.1](https://github.com/ictusandersys/tabela-periodica-distribuicao-eletronica/releases/tag/v1.0.1)
 
 ## Autor
 Desenvolvido por Gilberto Anders.
